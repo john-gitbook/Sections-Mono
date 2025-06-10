@@ -23,3 +23,10 @@
     "active": false
   }
 ]
+
+| id | name           | department  | salary | active |
+|----|----------------|-------------|--------|--------|
+| 1  | Alice Johnson  | Engineering | 85000  | true   |
+| 2  | Bob Smith      | Marketing   | 62000  | true   |
+| 3  | Carol Williams | Engineering | 92000  | false  |
+
