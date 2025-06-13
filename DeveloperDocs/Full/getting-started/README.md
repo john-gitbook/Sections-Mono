@@ -4,15 +4,21 @@ icon: map
 
 # Concepts
 
-Throughout the GitBook Integration Platform and it's documentation, there are different concepts, variables, and terms used as you continue to explore. Below you can find more information about these concepts and where to find them in the GitBook app.
+{% include ".gitbook/includes/throughout-the-gitbook-inte....md" %}
 
 ### `<organizationId>`
 
-A unique identifier of an Organization in GitBook. You can find the organization ID in the URL of any space you're in.&#x20;
+A unique identifier of an Organization in GitBook. You can find the organization ID in the URL of any space you're in.
 
 Alternatively, you can click the "Copy org ID" button when viewing your organization's settings.
 
 **Example**
+
+
+
+
+
+{% include ".gitbook/includes/throughout-the-gitbook-inte....md" %}
 
 <table><thead><tr><th width="499">URL</th><th>Organization ID</th></tr></thead><tbody><tr><td>https://app.gitbook.com/o/6DshSpVsoE/s/I6OHwf4UHU/</td><td><code>6DshSpVsoE</code></td></tr></tbody></table>
 
@@ -48,4 +54,4 @@ A required file in a GitBook integration that contains information for publishin
 
 ### `.gitbook-dev.yaml`
 
-A required file in a GitBook integration containing information about developing your app. See the [Development section](broken-reference) for more info.
+A required file in a GitBook integration containing information about developing your app. See the [Development section](broken-reference/) for more info.

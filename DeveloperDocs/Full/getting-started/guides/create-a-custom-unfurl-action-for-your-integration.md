@@ -1,22 +1,28 @@
 # Create a custom unfurl action for your integration
 
-Link unfurling refers to the automatic previewing of website links shared in online platforms—Like chat applications, social media platforms, or messaging services.&#x20;
+Link unfurling refers to the automatic previewing of website links shared in online platforms—Like chat applications, social media platforms, or messaging services.
 
 When you paste or share a link in a supported platform, the platform will automatically retrieve information from the linked web page and display a preview of that content.
 
-When making an integration in GitBook, you're able to tap into this action, and display or embed content-rich blocks and previews. &#x20;
+When making an integration in GitBook, you're able to tap into this action, and display or embed content-rich blocks and previews.
 
-### Unfurling in GitBook already works
+### Unfurling in GitBook already works <a href="#this-is-an-anchor" id="this-is-an-anchor"></a>
 
-Before you dive in and create an integration for your platform, embedding your service might already be supported in GitBook.&#x20;
+{% include "../.gitbook/includes/before-you-dive-in-and-crea....md" %}
 
-Underneath the hood, GitBook uses the service [iFramely](https://iframely.com/domains) to unpack and unfurl links pasted in the editor.&#x20;
+Underneath the hood, GitBook uses the service [iFramely](https://iframely.com/domains) to unpack and unfurl links pasted in the editor.
 
 If the iFramely service doesn't support the unfurling your link out of the box, it defaults to displaying the link as text instead.
 
 If the link you're trying to unfurl doesn't work out of the box, or if you'd like to create an official integration for GitBook, continue reading!
 
+
+
+{% include "../.gitbook/includes/throughout-the-gitbook-inte....md" %}
+
 ### Create integration
+
+
 
 Creating an integration in GitBook allows you to add extra functionality to the way you're working. You can connect tools, build workflows, and further customize GitBook pages you create.
 
@@ -95,15 +101,14 @@ Additionally, in the render method you can control what to display—Like when d
 
 ### Publish
 
-After you're done working on your integration, don't forget to [publish](https://developer.gitbook.com/getting-started/publishing)! Publishing your integration as `unlisted` or `public` will allow others to use it outside of your organization.&#x20;
+After you're done working on your integration, don't forget to [publish](https://developer.gitbook.com/getting-started/publishing)! Publishing your integration as `unlisted` or `public` will allow others to use it outside of your organization.
 
 If you're interested in submitting your integration to our Marketplace, head to our [Marketplace Overview](https://developer.gitbook.com/marketplace/overview) to learn more.
 
 ### Wrapping up
 
-GitBook allows you to extend the way you work by offering a flexible way of enhancing it's native workflows. On top of working with the workflows and actions mentioned in this guide, GitBook's Integration Platform provides a set of tools that give you even more control over your content.&#x20;
+GitBook allows you to extend the way you work by offering a flexible way of enhancing it's native workflows. On top of working with the workflows and actions mentioned in this guide, GitBook's Integration Platform provides a set of tools that give you even more control over your content.
 
 From our REST API to creating custom blocks in GitBook, you're able to integrate many of the tools you already know and love directly into the sites you're working on.
 
-Make sure you head to [GitBook Integrations](https://www.gitbook.com/integrations) to learn more.&#x20;
-
+Make sure you head to [GitBook Integrations](https://www.gitbook.com/integrations) to learn more.
