@@ -7,13 +7,15 @@ icon: rectangle-vertical-history
 
 You can easily monitor all the changes people have made to your content using to the **Version history** side panel.
 
+<a href="./#see-the-activity-of-a-specific-draft" class="button primary">New button</a>
+
 ### Version history <a href="#see-the-activity-of-a-specific-draft" id="see-the-activity-of-a-specific-draft"></a>
 
 In the Version history of a space, you can see a list of all the actions that changed the content within it. These include:
 
 * When someone made [live edits](editing-content/live-edits.md) to the space.
-* When someone merged a [change request](../collaboration/change-requests.md).
-* When someone performed a [Git Sync](../integrations/git-sync/) operation.
+* When someone merged a [change request](../../Product%202/collaboration/change-requests.md).
+* When someone performed a [Git Sync](../../Product%202/integrations/git-sync/) operation.
 
 ### Viewing historical versions of content
 
@@ -23,13 +25,13 @@ To view past versions of your content and see the changes that were made, click 
 **Permissions:** Only users with **admin**, **creator**, **reviewer** and **editor** permissions can view the version history for a space.
 {% endhint %}
 
-Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](../collaboration/change-requests.md).
+Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](../../Product%202/collaboration/change-requests.md).
 
 <figure><img src="../.gitbook/assets/editor-versions.png" alt=""><figcaption><p>The <strong>Version history</strong> side panel shows all the historical changes people have made to a space.</p></figcaption></figure>
 
 ### Show changes
 
-When you are viewing an old version of your content, you can choose to highlight the differences between the old and current content — similar to [diff view in a change request](../collaboration/change-requests.md#diff-mode).
+When you are viewing an old version of your content, you can choose to highlight the differences between the old and current content — similar to [diff view in a change request](../../Product%202/collaboration/change-requests.md#diff-mode).
 
 To enable or disable this, use the **Show changes** toggle at the bottom of the **Version history** side panel.
 
