@@ -49,11 +49,9 @@ Top level component for a custom block.
 'warning' |
 'link' |
 'link-external'
-</code></pre></td><td>The icon to display with the control</td></tr><tr><td><code>controls.label</code></td><td><code>string</code></td><td>The label for the control</td></tr><tr><td><code>controls.onPress</code></td><td><code>Action</code></td><td>Action dispatched when control is pressed. <br><br>See <a href="actions.md">Actions</a> for more information.</td></tr><tr><td><code>controls.confirm</code></td><td><code>object</code></td><td>Modal object to display to ask the user to confirm the action before execution</td></tr><tr><td><code>controls.confirm.title</code></td><td><code>string</code></td><td>Title for the confirmation button</td></tr><tr><td><code>controls.confirm.text</code></td><td><code>string</code></td><td>Content for the confirmation button</td></tr><tr><td><code>controls.confirm.confirm</code></td><td><code>string</code></td><td>Label for the confirmation button</td></tr><tr><td><code>controls.confirm.style</code></td><td><code>"primary"</code> | <code>"danger"</code></td><td>Style for the confirmation button.</td></tr></tbody></table>
+</code></pre></td><td>The icon to display with the control</td></tr><tr><td><code>controls.label</code></td><td><code>string</code></td><td>The label for the control</td></tr><tr><td><code>controls.onPress</code></td><td><code>Action</code></td><td>Action dispatched when control is pressed.<br><br>See <a href="actions.md">Actions</a> for more information.</td></tr><tr><td><code>controls.confirm</code></td><td><code>object</code></td><td>Modal object to display to ask the user to confirm the action before execution</td></tr><tr><td><code>controls.confirm.title</code></td><td><code>string</code></td><td>Title for the confirmation button</td></tr><tr><td><code>controls.confirm.text</code></td><td><code>string</code></td><td>Content for the confirmation button</td></tr><tr><td><code>controls.confirm.confirm</code></td><td><code>string</code></td><td>Label for the confirmation button</td></tr><tr><td><code>controls.confirm.style</code></td><td><code>"primary"</code> | <code>"danger"</code></td><td>Style for the confirmation button.</td></tr></tbody></table>
 
 <mark style="color:red;">\*required</mark>
-
-
 
 ### `vstack`
 
@@ -114,8 +112,6 @@ with `align`:
 | `align`                                      | `'start' \| 'center' \| 'end'` | Horizontal alignment of the elements in the stack. |
 
 <mark style="color:red;">\*required</mark>
-
-
 
 ### `hstack`
 
@@ -202,8 +198,6 @@ A visual delimiter between 2 elements of a containing stack layout.
 | `style` | `"default" \| "line"`            | Visual style for the divider.                 |
 | `size`  | `"medium" \| "small" \| "large"` | Spacing of the divider (default to `medium`). |
 
-
-
 ## Display
 
 ### `box`
@@ -238,8 +232,6 @@ A visual delimiter between 2 elements of a containing stack layout.
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ### `card`
 
 {% tabs %}
@@ -264,31 +256,30 @@ A visual delimiter between 2 elements of a containing stack layout.
 {% endtab %}
 {% endtabs %}
 
-| Props      | Type                                                                                                                                                                                                                       | Description                                                                                              |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `children` | `Array<Block> \| Array<Inline>`                                                                                                                                                                                            | Content to display in the block.                                                                         |
-| `title`    | `string`                                                                                                                                                                                                                   | Title for the card.                                                                                      |
-| `hint`     | `string`                                                                                                                                                                                                                   | Hint for the card.                                                                                       |
-| `icon`     | <pre class="language-typescript"><code class="lang-typescript">'close' |
-'edit' |
-'github' |
-'maximize' |
-'email' |
-'settings' |
-'search' |
-'delete' |
-'star' |
-'warning' |
-'link' |
-'link-external' |
-Image
-</code></pre> | Icon or Image displayed with the card.                                                                   |
-| `onPress`  | `Action`                                                                                                                                                                                                                   | <p>Action dispatched when pressed.<br><br>See <a href="actions.md">Actions</a> for more information.</p> |
-| `buttons`  | `Array<Button>`                                                                                                                                                                                                            | Button(s) displayed in the top right corner of the card.                                                 |
+| Props           | Type                                                                                 | Description                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| `children`      | `Array<Block> \| Array<Inline>`                                                      | Content to display in the block.                                                                         |
+| `title`         | `string`                                                                             | Title for the card.                                                                                      |
+| `hint`          | `string`                                                                             | Hint for the card.                                                                                       |
+| `icon`          | <pre class="language-typescript"><code class="lang-typescript">'close'
+</code></pre> |                                                                                                          |
+| 'edit'          |                                                                                      |                                                                                                          |
+| 'github'        |                                                                                      |                                                                                                          |
+| 'maximize'      |                                                                                      |                                                                                                          |
+| 'email'         |                                                                                      |                                                                                                          |
+| 'settings'      |                                                                                      |                                                                                                          |
+| 'search'        |                                                                                      |                                                                                                          |
+| 'delete'        |                                                                                      |                                                                                                          |
+| 'star'          |                                                                                      |                                                                                                          |
+| 'warning'       |                                                                                      |                                                                                                          |
+| 'link'          |                                                                                      |                                                                                                          |
+| 'link-external' |                                                                                      |                                                                                                          |
+| Image           |                                                                                      |                                                                                                          |
+|                 | Icon or Image displayed with the card.                                               |                                                                                                          |
+| `onPress`       | `Action`                                                                             | <p>Action dispatched when pressed.<br><br>See <a href="actions.md">Actions</a> for more information.</p> |
+| `buttons`       | `Array<Button>`                                                                      | Button(s) displayed in the top right corner of the card.                                                 |
 
 <mark style="color:red;">\*required</mark>
-
-
 
 ### `text`
 
@@ -354,8 +345,6 @@ With nested formatting:
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ### `image`
 
 The image component allows you to use images in your integration.
@@ -380,8 +369,6 @@ The image component allows you to use images in your integration.
 | `aspectRatio`<mark style="color:red;">\*</mark> | `number` | Aspect ratio to use for the image. |
 
 <mark style="color:red;">\*required</mark>
-
-
 
 ### `markdown`
 
@@ -410,13 +397,11 @@ Rich-text formatting of Markdown content.
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ## Interactive
 
 ### `modal`
 
-Overlay modal&#x20;
+Overlay modal
 
 {% tabs %}
 {% tab title="JSX" %}
@@ -446,8 +431,6 @@ Overlay modal&#x20;
 | `submit`                                     | `Button`                                   | Button instance that triggers an action.                                                                                |
 
 <mark style="color:red;">\*required</mark>
-
-
 
 ### `button`
 
@@ -520,34 +503,33 @@ With a confirm modal:
 {% endtab %}
 {% endtabs %}
 
-| Props                                               | Type                                                                                                                                                            | Description                                                                                                           |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `label`<mark style="color:red;">\*</mark>           | `string`                                                                                                                                                        | Text displayed in the button                                                                                          |
-| `onPress`<mark style="color:red;">\*</mark>         | `Action`                                                                                                                                                        | <p>Action to trigger when the button is pressed<br><br>See <a href="actions.md">Actions</a> for more information.</p> |
-| `style`                                             | `'primary' \| 'secondary' \| 'danger'`                                                                                                                          | Visual style for the button                                                                                           |
-| `tooltip`                                           | `string`                                                                                                                                                        | Text displayed in an hovering tooltip                                                                                 |
-| `icon`                                              | <pre><code>'close' |
-'edit' |
-'github' |
-'maximize' |
-'email' |
-'settings' |
-'search' |
-'delete' |
-'star' |
-'warning' |
-'link' |
-'link-external' 
-</code></pre> | Visual icon to display on the start of the button                                                                     |
-| `confirm`                                           | `object`                                                                                                                                                        | Modal object to display to ask the user to confirm the action before execution                                        |
-| `confirm.title`<mark style="color:red;">\*</mark>   | `string`                                                                                                                                                        | Title for the confirmation modal                                                                                      |
-| `confirm.text`<mark style="color:red;">\*</mark>    | `string`                                                                                                                                                        | Content of the confirmation modal                                                                                     |
-| `confirm.confirm`<mark style="color:red;">\*</mark> | `string`                                                                                                                                                        | Label for the confirmation button                                                                                     |
-| `confirm.style`<mark style="color:red;">\*</mark>   | `'primary' \| 'danger'`                                                                                                                                         | Style of the confirmation button                                                                                      |
+| Props                                               | Type                                              | Description                                                                                                           |
+| --------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `label`<mark style="color:red;">\*</mark>           | `string`                                          | Text displayed in the button                                                                                          |
+| `onPress`<mark style="color:red;">\*</mark>         | `Action`                                          | <p>Action to trigger when the button is pressed<br><br>See <a href="actions.md">Actions</a> for more information.</p> |
+| `style`                                             | `'primary' \| 'secondary' \| 'danger'`            | Visual style for the button                                                                                           |
+| `tooltip`                                           | `string`                                          | Text displayed in an hovering tooltip                                                                                 |
+| `icon`                                              | <pre><code>'close'
+</code></pre>                  |                                                                                                                       |
+| 'edit'                                              |                                                   |                                                                                                                       |
+| 'github'                                            |                                                   |                                                                                                                       |
+| 'maximize'                                          |                                                   |                                                                                                                       |
+| 'email'                                             |                                                   |                                                                                                                       |
+| 'settings'                                          |                                                   |                                                                                                                       |
+| 'search'                                            |                                                   |                                                                                                                       |
+| 'delete'                                            |                                                   |                                                                                                                       |
+| 'star'                                              |                                                   |                                                                                                                       |
+| 'warning'                                           |                                                   |                                                                                                                       |
+| 'link'                                              |                                                   |                                                                                                                       |
+| 'link-external'                                     |                                                   |                                                                                                                       |
+|                                                     | Visual icon to display on the start of the button |                                                                                                                       |
+| `confirm`                                           | `object`                                          | Modal object to display to ask the user to confirm the action before execution                                        |
+| `confirm.title`<mark style="color:red;">\*</mark>   | `string`                                          | Title for the confirmation modal                                                                                      |
+| `confirm.text`<mark style="color:red;">\*</mark>    | `string`                                          | Content of the confirmation modal                                                                                     |
+| `confirm.confirm`<mark style="color:red;">\*</mark> | `string`                                          | Label for the confirmation button                                                                                     |
+| `confirm.style`<mark style="color:red;">\*</mark>   | `'primary' \| 'danger'`                           | Style of the confirmation button                                                                                      |
 
 <mark style="color:red;">\*required</mark>
-
-
 
 ### `textinput`
 
@@ -601,8 +583,6 @@ Basic textinput:
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ### `codeblock`
 
 Multi-lines code blocks with syntax highlighting.
@@ -636,8 +616,6 @@ Multi-lines code blocks with syntax highlighting.
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ### `webframe`
 
 Element to render an external URL. The frame can receive update when states are updated by defining dependencies with `data` (see [interactivity](../interactivity.md) for more details).
@@ -668,18 +646,16 @@ Element to render an external URL. The frame can receive update when states are 
 | Props                                           | Type                                       | Description                                                                                        |
 | ----------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | `source`<mark style="color:red;">\*</mark>      | `object`                                   | Content to load in the frame                                                                       |
-| `source.url`<mark style="color:red;">\*</mark>  | `string`                                   |  URL of the content to load                                                                        |
+| `source.url`<mark style="color:red;">\*</mark>  | `string`                                   | URL of the content to load                                                                         |
 | `aspectRatio`<mark style="color:red;">\*</mark> | `number`                                   | Aspect-ratio (width / height) for the block                                                        |
 | `buttons`                                       | `Array<Button>`                            | Buttons to render as an overlay in top-right corner                                                |
 | `data`                                          | `Record<string, string \| DynamicBinding>` | States this webframe is depend on. Each state update will cause the webframe to receive a message. |
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ### `select`
 
-Select item&#x20;
+Select item
 
 {% tabs %}
 {% tab title="JSX" %}
@@ -711,8 +687,6 @@ Select item&#x20;
 | `options.url`                             | `string`               | URL for the option if using an external link                                                         |
 
 <mark style="color:red;">\*required</mark>
-
-
 
 ### `switch`
 
@@ -746,8 +720,6 @@ A switch component to toggle between on and off.
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ### `checkbox`
 
 A checkbox component to toggle between checked and unchecked.
@@ -780,8 +752,6 @@ A checkbox component to toggle between checked and unchecked.
 
 <mark style="color:red;">\*required</mark>
 
-
-
 ### `radio`
 
 A radio component.
@@ -813,6 +783,3 @@ A radio component.
 | `confirm.style`<mark style="color:red;">\*</mark>   | `'primary' \| 'danger'` | Style for the confirmation button                                                                    |
 
 <mark style="color:red;">\*required</mark>
-
-
-

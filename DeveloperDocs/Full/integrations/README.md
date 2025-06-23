@@ -67,3 +67,15 @@ let integrations = new URL("/integrations", baseUrl);
 ### `URLSearchParams`
 
 The **`URLSearchParams`** interface defines utility methods to work with the query string of a URL. See the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) to learn more.
+
+{% content-ref url="receiving-requests.md" %}
+[receiving-requests.md](receiving-requests.md)
+{% endcontent-ref %}
+
+{% content-ref url="integrations.md" %}
+[integrations.md](integrations.md)
+{% endcontent-ref %}
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
