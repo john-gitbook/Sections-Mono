@@ -12,7 +12,7 @@ A unique identifier of an Organization in GitBook. You can find the organization
 
 Alternatively, you can click the "Copy org ID" button when viewing your organization's settings.
 
-**Example**
+[**Example**](https://google.com/)
 
 
 
