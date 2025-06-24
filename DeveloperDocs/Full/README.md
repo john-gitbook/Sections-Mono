@@ -7,7 +7,7 @@ icon: rectangle-terminal
 
 # Developer Documentation
 
-Hello world. Hi there
+Hello world. Hi there. How are you
 
 
 
