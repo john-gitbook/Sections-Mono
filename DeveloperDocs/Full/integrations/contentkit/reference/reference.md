@@ -263,6 +263,7 @@ A visual delimiter between 2 elements of a containing stack layout.
 | `hint`          | `string`                                                                             | Hint for the card.                                                                                       |
 | `icon`          | <pre class="language-typescript"><code class="lang-typescript">'close'
 </code></pre> |                                                                                                          |
+|                 |                                                                                      |                                                                                                          |
 | 'edit'          |                                                                                      |                                                                                                          |
 | 'github'        |                                                                                      |                                                                                                          |
 | 'maximize'      |                                                                                      |                                                                                                          |
@@ -511,6 +512,7 @@ With a confirm modal:
 | `tooltip`                                           | `string`                                          | Text displayed in an hovering tooltip                                                                                 |
 | `icon`                                              | <pre><code>'close'
 </code></pre>                  |                                                                                                                       |
+|                                                     |                                                   |                                                                                                                       |
 | 'edit'                                              |                                                   |                                                                                                                       |
 | 'github'                                            |                                                   |                                                                                                                       |
 | 'maximize'                                          |                                                   |                                                                                                                       |

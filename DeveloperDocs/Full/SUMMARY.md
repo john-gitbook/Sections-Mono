@@ -49,7 +49,7 @@
   * [Action](integrations/reference/action.md)
   * [Render](integrations/reference/render.md)
   * [Event](integrations/reference/event.md)
-* [Web APIs](integrations/apis.md)
+* [Web APIs](integrations/web-apis.md)
 * [Receiving Requests](integrations/receiving-requests.md)
 * [ContentKit](integrations/contentkit/README.md)
   * [Reference](integrations/contentkit/reference/README.md)
@@ -82,7 +82,7 @@
 
 * [Quickstart](cli/quickstart.md)
 * [Reference](cli/reference.md)
-* [Continuous Integration](cli/ci.md)
+* [Continuous Integration](cli/continuous-integration.md)
 
 ## Marketplace
 
