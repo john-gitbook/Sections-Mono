@@ -7,7 +7,7 @@ icon: rectangle-terminal
 
 # Developer Documentation
 
-```
+```plantuml
 @startuml component
 actor client
 node app
