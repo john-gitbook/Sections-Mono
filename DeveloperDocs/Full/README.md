@@ -7,6 +7,8 @@ icon: rectangle-terminal
 
 # Developer Documentation
 
+Hello world
+
 {% content-ref url="./" %}
 [.](./)
 {% endcontent-ref %}
