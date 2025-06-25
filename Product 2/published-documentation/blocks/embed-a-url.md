@@ -31,7 +31,5 @@ Here are a few examples of the kind of content you can embed into GitBook — an
 ### Representation in Markdown
 
 ```markdown
-{% raw %}
 {% embed url="URL_HERE" %}
-{% endraw %}
 ```

@@ -37,7 +37,6 @@ Here are the instructions for Linux
 ### Representation in Markdown
 
 ```markdown
-{% raw %}
 {% tabs %}
 
 {% tab title="Windows" %} Here are the instructions for Windows {% endtab %}
@@ -47,5 +46,4 @@ Here are the instructions for Linux
 {% tab title="Linux" %} Here are the instructions for Linux {% endtab %}
 
 {% endtabs %}
-{% endraw %}
 ```

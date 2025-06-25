@@ -109,7 +109,6 @@ Hover over a code block and a number of icons will appear. Click the middle icon
 ### Representation in Markdown
 
 ````markdown
-{% raw %}
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
 
 ```javascript
@@ -121,5 +120,4 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 ```
 
 {% endcode %}
-{% endraw %}
 ````

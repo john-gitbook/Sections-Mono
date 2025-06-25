@@ -1,13 +1,13 @@
 # Table of contents
 
-* [Version control](README.md)
-* [Page 1](<README (1).md>)
+* [👍 Welcome](README.md)
+* [Version control](<README (1).md>)
+* [Page 1](<README (1) (1).md>)
 
 ## Group 1
 
 ***
 
-* [Welcome](readme.md)
 * [Import](import.md)
 * [Site insights](insights.md)
 * [Overview](overview.md)

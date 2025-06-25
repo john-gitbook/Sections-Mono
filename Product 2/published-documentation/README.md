@@ -1,48 +1,31 @@
 ---
-description: Keep track of changes, roll back to a previous version, and more.
-icon: rectangle-vertical-history
+description: >-
+  GitBook is a platform for capturing and documenting technical knowledge — from
+  product docs, to internal knowledge bases and APIs.
+icon: hand-wave
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Version control
+# Welcome
 
-You can easily monitor all the changes people have made to your content using to the **Version history** side panel.
+We want to help **teams to work more efficiently** with a simple but powerful platform that helps them **share their knowledge**.
 
-<a href="./#see-the-activity-of-a-specific-draft" class="button primary">New button</a>
+### Discover GitBook
 
-### Version history <a href="#see-the-activity-of-a-specific-draft" id="see-the-activity-of-a-specific-draft"></a>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Content editor</strong></td><td>Edit pages, collections, content, and more in GitBook.</td><td></td><td><a href="../.gitbook/assets/content-editor.png">content-editor.png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Snippets &#x26; insights</strong></td><td>Learn about capturing and refining knowledge in GitBook.</td><td></td><td><a href="../.gitbook/assets/snippets-and-insights (2).png">snippets-and-insights (2).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Integrations</strong></td><td>Learn about the tools and workflows you can integrate with.</td><td></td><td><a href="../.gitbook/assets/integrations (4).png">integrations (4).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Published documentation</strong></td><td>Discover how to share and customize your content publicly or privately.</td><td></td><td><a href="../.gitbook/assets/published-documentation (1).png">published-documentation (1).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Collaboration</strong></td><td>Learn how to invite and collaborate with your team.</td><td></td><td><a href="../.gitbook/assets/collaboration (1).png">collaboration (1).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr><tr><td><strong>Account management</strong></td><td>Manage your organization, account, and billing.</td><td></td><td><a href="../.gitbook/assets/account-management (1).png">account-management (1).png</a></td><td><a href="https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md">https://github.com/john-gitbook/public-docs/blob/main/broken-reference/README.md</a></td></tr></tbody></table>
 
-In the Version history of a space, you can see a list of all the actions that changed the content within it. These include:
+### GitBook Product Demo
 
-* When someone made [live edits](editing-content/live-edits.md) to the space.
-* When someone merged a [change request](../../Product%202/collaboration/change-requests.md).
-* When someone performed a [Git Sync](../../Product%202/integrations/git-sync/) operation.
-
-### Viewing historical versions of content
-
-To view past versions of your content and see the changes that were made, click the **Version history** <picture><source srcset="../.gitbook/assets/Revision history dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Revision history light.png" alt="" data-size="line"></picture> button from the space’s **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> in the top-right corner.
-
-{% hint style="info" %}
-**Permissions:** Only users with **admin**, **creator**, **reviewer** and **editor** permissions can view the version history for a space.
-{% endhint %}
-
-Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](../../Product%202/collaboration/change-requests.md).
-
-<figure><img src="../.gitbook/assets/editor-versions.png" alt=""><figcaption><p>The <strong>Version history</strong> side panel shows all the historical changes people have made to a space.</p></figcaption></figure>
-
-### Show changes
-
-When you are viewing an old version of your content, you can choose to highlight the differences between the old and current content — similar to [diff view in a change request](../../Product%202/collaboration/change-requests.md#diff-mode).
-
-To enable or disable this, use the **Show changes** toggle at the bottom of the **Version history** side panel.
-
-With show changes enabled, content that has changed will be highlighted by an icon on the left of its content block.
-
-### Rolling back to a previous version
-
-Rolling back allows you to revert a space’s content to the way it was at a previous point in time. This is helpful if you’ve accidentally made a breaking change or deleted content and need to quickly get back to a previous version of the space.
-
-To roll back to a previous version of your space, hover over the version in the side panel, click the **Actions button** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and select **Rollback**.
-
-{% hint style="info" %}
-**Permissions:** Only users with **admin**, **creator** and **reviewer** permissions can roll back to a previous version.
-{% endhint %}
+{% embed url="https://www.youtube.com/playlist?list=PLZAlnWDc6FDsodH14aMS3eNRoTYMbua6U" %}
+GitBook Product Demo
+{% endembed %}
