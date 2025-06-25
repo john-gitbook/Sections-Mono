@@ -1,8 +1,8 @@
 # Table of contents
 
 * [👍 Welcome](README.md)
-* [Version control](<README (1).md>)
-* [Page 1](<README (1) (1).md>)
+* [👍 Version control](<README (1).md>)
+* [👍 Page 1](<README (1) (1).md>)
 
 ## Group 1
 
