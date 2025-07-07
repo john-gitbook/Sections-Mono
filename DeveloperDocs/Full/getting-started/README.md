@@ -1,8 +1,10 @@
-# 🥝 Concepts
+# 🐊 Concepts
 
 {% include ".gitbook/includes/throughout-the-gitbook-inte....md" %}
 
 ### `<organizationId>`
+
+A unique identifier of an Organization in GitBook. You can find the organization ID in the URL of any space you're in.
 
 Alternatively, you can click the "Copy org ID" button when viewing your organization's settings.
 
@@ -20,7 +22,7 @@ Alternatively, you can click the "Copy org ID" button when viewing your organiza
 
 A unique identifier of a Space in GitBook. You can find the space ID in the URL of any space you're in.
 
-Alternatively, you can click the "Copy space ID" button from the dropdown menu in the upper right corner when viewing a space. hello!!!
+Alternatively, you can click the "Copy space ID" button from the dropdown menu in the upper right corner when viewing a space. More information
 
 **Example**
 
