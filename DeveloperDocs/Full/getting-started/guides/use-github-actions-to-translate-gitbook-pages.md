@@ -16,7 +16,7 @@ Collections provide a way to group related spaces together. In the context of i1
 
 Here’s an example of such a setup:
 
-<div data-full-width="false"><figure><img src="https://images.unsplash.com/photo-1745434038522-5803c66fddfc?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4OTg4NjF8&#x26;ixlib=rb-4.1.0&#x26;q=85" alt=""><figcaption><p>A collection with different spaces for each language</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="https://images.unsplash.com/photo-1750315080835-6f8640a00a12?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4OTg4OTl8&#x26;ixlib=rb-4.1.0&#x26;q=85" alt=""><figcaption><p>A collection with different spaces for each language</p></figcaption></figure></div>
 
 In the example above, the space called _English_ is the main space that all the translations will be based on.
 
