@@ -2,12 +2,10 @@
 description: >-
   Leverage the power of GitBook's API to create powerful integrations with your
   favorite tools and services.
-icon: bullseye-arrow
+icon: webhook
 ---
 
 # Overview
-
-The GitBook API allows you to read and write information across the spaces and pages you have access to in GitBook. You can do things like update permissions for members in an organization, create change requests, and much more.
 
 This section describes how to use the GitBook API and its resources. If you have any questions or issues, please contact the [GitBook Support](mailto:support@gitbook.com).
 
