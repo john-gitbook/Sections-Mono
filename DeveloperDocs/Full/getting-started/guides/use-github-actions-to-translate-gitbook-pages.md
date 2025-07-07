@@ -4,7 +4,7 @@
 
 As far as any good documentation goes, accessibility — and [Internationalization](https://en.wikipedia.org/wiki/Internationalization_and_localization) (i18n) specifically — plays an important role.
 
-Translating documents and content has always been a tedious and manual task. Many times translating documents from one language to another isn’t straightforward. Luckily, we’re able to start using new and emerging tools to help us make our documents more accessible.
+Translating documents and content has always been a tedious and manual task. Many times translating documents from one language to another isn’t straightforward. Luckily, we’re able to start using new and emerging tools to help us make our documents more accessible. Hello World!
 
 Let’s dive in!
 
@@ -12,11 +12,11 @@ Let’s dive in!
 
 In order to translate your site, you’ll need to have some well-organized content. GitBook provides the perfect solution to structure sites available in multiple languages: [collections](https://docs.gitbook.com/content-creation/content-structure/what-is-a-collection).
 
-Collections provide a way to group related spaces together. In the context of i18n, we will use one space for each language, with a space designated to hold the content in the primary language. You can think of this space as your “main” content. Hello World!
+Collections provide a way to group related spaces together. In the context of i18n, we will use one space for each language, with a space designated to hold the content in the primary language. You can think of this space as your “main” content.&#x20;
 
 Here’s an example of such a setup:
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/Screenshot 2023-05-23 at 10.45.16.png" alt=""><figcaption><p>A collection with different spaces for each language</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="https://images.unsplash.com/photo-1745434038522-5803c66fddfc?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4OTg4NjF8&#x26;ixlib=rb-4.1.0&#x26;q=85" alt=""><figcaption><p>A collection with different spaces for each language</p></figcaption></figure></div>
 
 In the example above, the space called _English_ is the main space that all the translations will be based on.
 
