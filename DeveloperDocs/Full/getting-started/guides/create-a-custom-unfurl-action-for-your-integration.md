@@ -2,11 +2,9 @@
 
 Link unfurling refers to the automatic previewing of website links shared in online platforms—Like chat applications, social media platforms, or messaging services.
 
-When you paste or share a link in a supported platform, the platform will automatically retrieve information from the linked web page and display a preview of that content.
-
 When making an integration in GitBook, you're able to tap into this action, and display or embed content-rich blocks and previews.
 
-### Unfurling in GitBook already works <a href="#this-is-an-anchor" id="this-is-an-anchor"></a>
+### Unfurling in GitBook already <a href="#this-is-an-anchor" id="this-is-an-anchor"></a>
 
 {% include "../.gitbook/includes/before-you-dive-in-and-crea....md" %}
 
