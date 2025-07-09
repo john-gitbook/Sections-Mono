@@ -23,7 +23,6 @@
 ## Integrations
 
 * [Overview](integrations/integrations.md)
-* [Configurations](integrations/configurations.md)
 * [Reference](integrations/reference/README.md)
   * [createIntegration](integrations/reference/createintegration.md)
   * [createComponent](integrations/reference/createcomponent.md)
