@@ -22,7 +22,8 @@ All blocks defined in an installed integrations will be listed in the insertion 
 
 Rendering of custom blocks is controlled in the integration's code and executed in the GitBook backend.
 
-{% @mermaid/diagram content="sequenceDiagram
+```mermaid
+sequenceDiagram
     actor User
     User ->>+ GitBook: Insert block in the editor
     loop Every interaction with the block
@@ -30,7 +31,8 @@ Rendering of custom blocks is controlled in the integration's code and executed 
         Integration ->>- GitBook: Return ContentKit output for the block
         GitBook ->>- User: Render UI in the editor
         User -->+ GitBook: Interact with the block, updating the state or props
-    end" %}
+    end
+```
 
 ### Render a basic block
 
