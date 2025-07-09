@@ -22,7 +22,7 @@ curl https://api.gitbook.com/v1/
 
 ### API Reference
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API Reference</strong></td><td>Learn more about the endpoints you can use from GitBook's REST API</td><td><a href="../.gitbook/assets/GitBook API.svg">GitBook API.svg</a></td><td><a href="reference/">reference</a></td></tr><tr><td><strong>API Explorer</strong></td><td>Try out the GitBook API and view responses</td><td><a href="../.gitbook/assets/API Explorer.svg">API Explorer.svg</a></td><td><a href="https://api-explorer.gitbook.dev/">https://api-explorer.gitbook.dev/</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API Reference</strong></td><td>Learn more about the endpoints you can use from GitBook's REST API</td><td><a href="../.gitbook/assets/GitBook API.svg">GitBook API.svg</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>API Explorer</strong></td><td>Try out the GitBook API and view responses</td><td><a href="../.gitbook/assets/API Explorer.svg">API Explorer.svg</a></td><td><a href="https://api-explorer.gitbook.dev/">https://api-explorer.gitbook.dev/</a></td></tr></tbody></table>
 
 ### Authentication & Rate Limiting
 
