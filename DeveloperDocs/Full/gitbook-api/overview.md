@@ -2,6 +2,7 @@
 description: >-
   Leverage the power of GitBook's API to create powerful integrations with your
   favorite tools and services.
+hidden: true
 icon: transporter-7
 ---
 
