@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Advanced Documentation](README.md)
+
 ## Getting Started
 
-* [Developer Documentation](README.md)
+* [Developer Documentation](<README (1).md>)
 * [Concepts](getting-started/concepts.md)
 * [Guides](getting-started/guides/README.md)
   * [Use GitHub Actions to translate GitBook pages](getting-started/guides/use-github-actions-to-translate-gitbook-pages.md)
