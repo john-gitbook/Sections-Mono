@@ -39,6 +39,8 @@ You make a GET request to a paginated endpoint `https://api.example.com/foo/bar`
 
 In order to get the next page of results, you would take the ID at position `.next.page` in the response body, and provide it as the value of the `page` key in a query to the same endpoint. The full URL including query parameters of your request to get the next page of the listing is:
 
+[#cli-quickstart](../integrations/integrations.md#cli-quickstart "mention")
+
 ```
 https://api.example.com/foo/bar?page=next-page-id
 ```
