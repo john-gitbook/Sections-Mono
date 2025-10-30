@@ -4,7 +4,7 @@ icon: key
 
 # Authentication
 
-The GitBook API uses Personal access tokens to authenticate requests.
+<mark style="color:purple;">The GitBook API uses Personal access tokens to authenticate requests.</mark>
 
 You can view and manage your access tokens in the [Developer settings](https://app.gitbook.com/account/developer) of your GitBook user account.
 
