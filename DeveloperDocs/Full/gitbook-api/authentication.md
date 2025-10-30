@@ -9,6 +9,7 @@ icon: key
 You can view and manage your access tokens in the [Developer settings](https://app.gitbook.com/account/developer) of your GitBook user account.
 
 API requests are authenticated using the [Bearer Auth scheme](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#authentication_schemes). To authenticate a request, provide the token in the `Authorization` header of the request:
+<mark style="color:blue;background-color:$info;">Datacap Token</mark>
 
 ```bash
 curl -H "Authorization: Bearer <your_access_token>" https://api.gitbook.com/v1/user
