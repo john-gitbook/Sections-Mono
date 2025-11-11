@@ -2,8 +2,8 @@
 
 {% stepper %}
 {% step %}
-### Step 1
-any change
+#### Step 1
+
 1. this is a substep
    1. this is a substep
 
@@ -11,7 +11,7 @@ any change
 {% endstep %}
 
 {% step %}
-### Step 2
+#### Step 2
 
 1. this is a substep
 2. this is a substep
@@ -23,7 +23,7 @@ this is a hint block just adding it here
 {% endstep %}
 
 {% step %}
-### some more content
+#### some more content
 
 hello world. hello
 {% endstep %}
