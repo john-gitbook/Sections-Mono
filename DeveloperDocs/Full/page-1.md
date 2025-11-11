@@ -28,3 +28,7 @@ this is a hint block just adding it here
 hello world. hello
 {% endstep %}
 {% endstepper %}
+
+
+
+{% include "getting-started/.gitbook/includes/before-you-dive-in-and-crea....md" %}
