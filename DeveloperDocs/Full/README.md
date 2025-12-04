@@ -5,8 +5,8 @@ icon: brackets-curly
 
 # Advanced Documentation
 
-Welcome to the advanced documentation section in this URL parameters example <i class="fa-rocket-launch">:rocket-launch:</i> Hello world!
+Welcome to the advanced documentation section in this URL parameters example <i class="fa-rocket-launch">:rocket-launch:</i>
 
-<mark style="color:purple;">Here's a video of how to set this up yourself</mark>
+Here's a video of how to set this up yourself&#x20;
 
-
+{% embed url="https://www.youtube.com/embed/hCd2_AAHU_I?si=cHhDG7ys29S9cMuS" %}

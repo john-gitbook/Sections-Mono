@@ -13,11 +13,11 @@ Developing custom blocks for GitBook is built using [TypeScript](https://www.typ
 
 ### CLI Quickstart
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/C4B2bU283vLJi0WgrX5S" %}
+[Broken link](/broken/pages/C4B2bU283vLJi0WgrX5S)
 {% endcontent-ref %}
 
-After bootstrapping your project, head to the [Development section](broken-reference) to learn about developing your app in GitBook.
+After bootstrapping your project, head to the [Development section](/broken/pages/M46X8Qp6VKYd78tOOfDe) to learn about developing your app in GitBook.
 
 ### Runtime
 

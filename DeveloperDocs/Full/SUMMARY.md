@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+* [Developer Documentation](getting-started/readme.md)
 * [Concepts](getting-started/concepts.md)
 * [Guides](getting-started/guides/README.md)
   * [Use GitHub Actions to translate GitBook pages](getting-started/guides/use-github-actions-to-translate-gitbook-pages.md)
@@ -46,7 +47,3 @@
   * [Link unfurling](integrations/blocks/link-unfurling.md)
   * [Editable blocks](integrations/blocks/editable-blocks.md)
   * [Working with Markdown](integrations/blocks/markdown.md)
-
-***
-
-* [Page 1](page-1.md)
