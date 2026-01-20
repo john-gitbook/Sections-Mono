@@ -47,3 +47,8 @@
   * [Link unfurling](integrations/blocks/link-unfurling.md)
   * [Editable blocks](integrations/blocks/editable-blocks.md)
   * [Working with Markdown](integrations/blocks/markdown.md)
+
+***
+
+* [Page 1](page-1.md)
+* [Page 2](page-2.md)
