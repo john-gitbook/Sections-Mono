@@ -1,5 +1,7 @@
 # Conditional Content
 
+Welcome, select your option below:
+
 {% if visitor.claims.unsigned.example_android == "android" %}
 <a href="https://support-examples.gitbook.io/conditions/?visitor.example_android=android" class="button primary" data-icon="android">Android</a> <a href="https://support-examples.gitbook.io/conditions/?visitor.example_android=apple" class="button secondary" data-icon="apple">Apple</a> <a href="https://support-examples.gitbook.io/conditions/?visitor.example_android=ubuntu" class="button secondary" data-icon="ubuntu">Ubuntu</a>
 
