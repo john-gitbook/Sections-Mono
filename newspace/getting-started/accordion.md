@@ -4,11 +4,28 @@ cover:
   dark: ../.gitbook/assets/CleanShot 2026-05-20 at 09.33.31@2x.png
 coverY: -19.445314947042384
 coverHeight: 371
+layout:
+  width: wide
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # Accordion
-
-
 
 {% tabs %}
 {% tab title="Usage" %}
