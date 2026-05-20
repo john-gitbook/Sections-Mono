@@ -2,4 +2,5 @@
 
 ## Getting Started
 
-* [Conditional Content](README.md)
+* [Conditional Content:](README.md)
+* [Accordion](getting-started/accordion.md "Tabs")
