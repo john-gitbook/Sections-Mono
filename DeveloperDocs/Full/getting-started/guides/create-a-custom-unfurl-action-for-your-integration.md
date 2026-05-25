@@ -76,7 +76,7 @@ export default createIntegration({
 });
 ```
 
-After pasting in the code above, don't forget to configure the link unfurl action in your Integration's manifest file. See the [Link Unfurling](../../integrations/blocks/link-unfurling.md) section for more info.
+After pasting in the code above, don't forget to configure the link unfurl action in your Integration's manifest file. See the [Link Unfurling](/broken/pages/Jk23qRw030v6cooiZn3Q) section for more info.
 
 ### How it works
 
